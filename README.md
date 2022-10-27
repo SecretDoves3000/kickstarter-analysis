@@ -10,11 +10,11 @@ In this analysis, we look at kickstarter data from 2009-2014. The focus of the a
 
 In our first step of analysis we created a pivot table of outcomes vs launch dates organized by month. 
 
-[[[[link]]]]
+https://raw.githubusercontent.com/SecretDoves3000/kickstarter-analysis/main/resources/theater_projects_by_month.PNG
 
 From that chart we plotted the following line chart
 
-[[[[line chart link]]]]
+https://raw.githubusercontent.com/SecretDoves3000/kickstarter-analysis/main/resources/Theater_Outcomes_vs_Launch.png
 
 As we can see, there is a significant uptick in successful campaigns at the end of spring and beginning of summer. At the same time, the number of failed campaings is relatively stable month to month. This means that increased success in May is more than a simple increase in overall campaigns, and so we conclude that May is the ideal month to launch a theatre project on kickstarter. Moreover, we see that the worst time for a launch is the heart winter, in December and January, so even if a May start is not possible due to circumstance, a winter start should be avoided.
 
@@ -22,11 +22,11 @@ As we can see, there is a significant uptick in successful campaigns at the end 
 
 In our next step we looked at a pivot table of the success and failure of projects based on their funding goals. 
 
-[[[link]]]
+https://raw.githubusercontent.com/SecretDoves3000/kickstarter-analysis/main/resources/campaign_outcomes_by_goal.PNG
 
 From here we plot another line chart.
 
-[[[line chart link]]]
+https://raw.githubusercontent.com/SecretDoves3000/kickstarter-analysis/main/resources/Outcomes_vs_Goals.png
 
 Unsurprisingly, the proportion of successful projects is higher the lower the funding goal is. We do see an unexpected uptick in the 35,000 dollar range, but we can safely conclude this is an anomaly since, as we see from the table, there are only 6 such projects over the entire five year span of this dataset. Most likely, one well established troupe uses kickstarter to consitently fund their more expensive productions, although to see exactly what this phenomenon is would require further investigation. As such, we recommend that any future budget be kept as low as possible within the parameters of the project.
 
